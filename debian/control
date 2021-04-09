@@ -1,0 +1,14 @@
+Source: libpg-pq-perl
+Section: perl
+Priority: optional
+Maintainer: Ivan Panchenko <wao@mail.ru>
+Build-Depends: debhelper (>= 9) libpq-dev
+Build-Depends-Indep: perl
+Standards-Version: 3.9.8
+Homepage: https://metacpan.org/release/ORM-Easy
+
+Package: libpg-pq-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, 
+  libpq
+Description: Pg::PQ - Perl wrapper for PostgreSQL libpq
