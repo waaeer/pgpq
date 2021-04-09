@@ -8,7 +8,7 @@ Standards-Version: 3.9.8
 Homepage: https://metacpan.org/release/ORM-Easy
 
 Package: libpg-pq-perl
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}, ${perl:Depends}, 
-  libpq
+  libpq5
 Description: Pg::PQ - Perl wrapper for PostgreSQL libpq

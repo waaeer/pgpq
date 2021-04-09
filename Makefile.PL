@@ -28,5 +28,6 @@ WriteMakefile( NAME          => 'Pg::PQ',
                LIBS          => ["-L$libdir -lpq"],
                DEFINE        => qq(-DPQMAJOR=$major -DPQVERSION='"$version"'), # e.g., '-DHAVE_SOMETHING'
                INC           => "-I. -I$incdir",
+			   NO_META       => 1,
                # OBJECT        => '$(O_FILES)', # link all the C files too
              );

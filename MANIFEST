@@ -9,6 +9,7 @@ debian/source/format
 enums.decl
 enums.h
 lib/Pg/PQ.pm
+LICENSE
 Makefile.PL
 MANIFEST
 ppport.h
